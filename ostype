@@ -1,0 +1,5 @@
+if [[ "$OSTYPE" == "darwin"* ]]; then
+apt-get install puppet-agent
+else 
+yum install puppet-agent
+fi
